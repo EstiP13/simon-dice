@@ -12,6 +12,11 @@ Aquí tienes algunas capturas de pantalla del juego en acción:
 
 ![Captura de Pantalla](images/demo-simon-dice.png)
 
+
+### Enlace a la Demo
+
+Puedes probar el juego en el siguiente enlace:  [Demo del Juego Simon Dice](https://estip13.github.io/simon-dice/)
+
 ### Características
 
 - Secuencia de colores aleatoria que aumenta de longitud con cada nivel.
