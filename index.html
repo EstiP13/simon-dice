@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Dice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego Simon Dice</h1>
+        <div id="game">
+            <div class="game-buttons">
+                <div class="button" id="green"></div>
+                <div class="button" id="red"></div>
+                <div class="button" id="yellow"></div>
+                <div class="button" id="blue"></div>
+            </div>
+            <div id="info">
+                <h2 id="message">Haz clic en "Iniciar"</h2>
+                <div id="score-board">
+                    <div id="score">Puntaje: <span id="score-value">0</span></div>
+                    <div id="streak">Racha: 0</div>
+                    <div id="high-score">Mejor Puntaje: 0</div>
+                </div>
+                <div id="timer">Tiempo: <span id="timer-value">01:00</span></div>
+            </div>
+            <button id="start-btn">Iniciar Juego</button>
+            <button id="toggle-mode">Modo Noche</button>
+        </div>
+    </div>
+
+    <!-- Ventana Juego Finalizado -->
+    <div id="game-over-modal" class="modal">
+        <div class="modal-content">
+            <h2>¡Juego Terminado!</h2>
+            <p id="final-message"></p>
+            <p>Puntaje final: <span id="final-score"></span></p>
+            <p>Nivel alcanzado: <span id="final-level"></span></p>
+            <p>Racha máxima: <span id="final-streak"></span></p>
+            <button id="close-modal-btn">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
